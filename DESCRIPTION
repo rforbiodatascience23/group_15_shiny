@@ -1,33 +1,20 @@
 Package: centralDogmaApp
 Title: PKG_TITLE
 Version: 0.0.0.9000
-Authors@R:
-  c(person(given = "Enrico",
-           family = "Leonardi",
-           role = c("aut", "cre"), # There must be a "cre", but there can only be one
-           email = "s222721@dtu.dk"), 
-    person(given = "Margrethe",
-           family = "Lyso",
-           role = "aut",
-           email = "s224180@dtu.dk"),
-    person(given = "Katrine",
-           family = "Meldgård",
-           role = "aut",
-           email = "katrine@meldgaard.dk"), 
-    person(given = "Pernille",
-           family = "Jensen",
-           role = "aut",
-           email = "s204635@dtu.dk"),
-    person(given = "Kristine",
-           family = "Petersen",
-           role = "aut",
-           email = "kristine.rosted@gmail.com"))
+Authors@R: c(
+    person("Enrico", "Leonardi", , "s222721@dtu.dk", role = c("aut", "cre")),
+    person("Margrethe", "Lyso", , "s224180@dtu.dk", role = "aut"),
+    person("Katrine", "Meldgård", , "katrine@meldgaard.dk", role = "aut"),
+    person("Pernille", "Jensen", , "s204635@dtu.dk", role = "aut"),
+    person("Kristine", "Petersen", , "kristine.rosted@gmail.com", role = "aut")
+  )
 Description: PKG_DESC.
 License: MIT + file LICENSE
 Imports: 
+    biocd,
     config (>= 0.3.1),
+    ggplot2,
     golem (>= 0.4.1),
-    pkgload,
     shiny (>= 1.7.5)
 Encoding: UTF-8
 LazyData: true

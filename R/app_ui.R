@@ -10,7 +10,13 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      h1("centralDogmaApp")
+      h1("centralDogmaApp"),
+      tabsetPanel(
+        tabPanel(title = "DNA seq",
+                 "module1"),
+        tabPanel(title = "Visualization",
+                 mod_aa_plotting_ui("aa_plotting_1"))
+      )
     )
   )
 }
