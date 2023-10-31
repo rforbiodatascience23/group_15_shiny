@@ -9,3 +9,6 @@ $run_dev.*
 ^README\.Rmd$
 ^app\.R$
 ^rsconnect$
+^doc$
+^Meta$
+^codecov\.yml$
