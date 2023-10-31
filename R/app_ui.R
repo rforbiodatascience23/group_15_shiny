@@ -13,7 +13,7 @@ app_ui <- function(request) {
       h1("centralDogmaApp"),
       tabsetPanel(
         tabPanel(title = "DNA seq",
-                 "module1"),
+                 mod_DNA_to_peptide_ui("DNA_to_peptide_1")),
         tabPanel(title = "Visualization",
                  mod_aa_plotting_ui("aa_plotting_1"))
       )
