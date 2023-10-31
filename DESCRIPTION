@@ -21,7 +21,7 @@ Authors@R:
     person(given = "Kristine",
            family = "Petersen",
            role = "aut",
-           email = "s204538@dtu.dk"))
+           email = "kristine.rosted@gmail.com"))
 Description: PKG_DESC.
 License: MIT + file LICENSE
 Imports: 
